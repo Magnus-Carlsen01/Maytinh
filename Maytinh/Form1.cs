@@ -9,7 +9,16 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Khởi động");
+            int a, b, kq;
+            a = int.Parse(txta.Text);
+            b = int.Parse(txtb.Text);
+            kq = a + b;
+        txtketqua.Text = kq.ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
